@@ -1,0 +1,14 @@
+[package]
+name = "endarke/camerarotation"
+description = "Used to setup basic Camera Rotation objects"
+license = "MPL-2.0"
+authors = ["EnDarke"]
+version = "0.1.0"
+
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+include = ["src", "src/**", "wally.toml", "default.project.json"]
+exclude = ["**"]
+
+[dependencies]
